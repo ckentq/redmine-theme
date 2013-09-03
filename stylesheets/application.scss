@@ -1,4 +1,18 @@
-@import url(../../../stylesheets/application.css);
+//@import url(../../../stylesheets/application.css);
+
+/**
+ * Pixel Cookers stylesheet for Redmine
+ * author: Ludovic Meyer, Pixel Cookers - http://www.pixel-cookers.com
+ * v2.1
+ */
+/**
+ * Pixel Cookers boilerplate
+ * author: Ludovic Meyer, Pixel Cookers - http://www.pixel-cookers.com
+ * Thanks to :
+ 	Twitter Bootstrap : http://twitter.github.com/bootstrap/
+ 	Less Boilerplate : http://mgeraci.github.com/Less-Boilerplate/
+ * v2.3
+ */
 
 .clearfix {
   *zoom: 1;
@@ -22,27 +36,27 @@
 }
 
 .arial {
-  font-family: Arial,Helvetica,sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .calibri {
-  font-family: Calibri,Helvetica,Arial,sans-serif;
+  font-family: Calibri, Helvetica, Arial, sans-serif;
 }
 
 .helvetica {
-  font-family: Helvetica,Arial,sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
 }
 
 .lucida {
-  font-family: "Lucida Grande",Verdana,Arial,Helvetica,sans-serif;
+  font-family: "Lucida Grande", Verdana, Arial, Helvetica, sans-serif;
 }
 
 .trebuchet {
-  font-family: "Trebuchet MS",Verdana,sans-serif;
+  font-family: "Trebuchet MS", Verdana, sans-serif;
 }
 
 .verdana {
-  font-family: Verdana,Arial,Helvetica,sans-serif;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
 }
 
 @-webkit-keyframes progress-bar-stripes {
@@ -260,7 +274,7 @@
 }
 
 body {
-  font-family: "Lucida Grande",Verdana,Arial,Helvetica,sans-serif;
+  font-family: "Lucida Grande", Verdana, Arial, Helvetica, sans-serif;
   background: #F3F3F3;
   color: #555555;
 }
@@ -317,7 +331,7 @@ a {
       margin-right: 4px;
     }
   }
-  #loggedas {
+  #loggedas { 
     color: #efefef;
     height: 30px;
     line-height: 30px;
@@ -338,7 +352,7 @@ a {
   width: 100%;
   z-index: 10;
   #quick-search {
-    font-family: Arial,Helvetica,sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     line-height: 30px;
     margin: 15px 15px 20px 0;
     padding: 0;
@@ -370,7 +384,7 @@ a {
     width: 120px;
   }
   h1 {
-    font-family: Calibri,Helvetica,Arial,sans-serif;
+    font-family: Calibri, Helvetica, Arial, sans-serif;
     color: #CCCCCC;
     font-weight: bold;
     margin: 15px;
@@ -403,7 +417,7 @@ a {
 }
 
 #main-menu {
-  font-family: Helvetica,Arial,sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   margin: 0;
   padding: 0;
   position: relative;
@@ -541,7 +555,7 @@ h2, h3, h4 {
     border-bottom: 0;
   }
   h2, h3 {
-    font-family: "Trebuchet MS",Verdana,sans-serif;
+    font-family: "Trebuchet MS", Verdana, sans-serif;
     font-weight: bold;
   }
 }
@@ -580,6 +594,8 @@ h3, h4 {
   margin: 0;
   padding: 0;
 }
+
+/* Tables */
 
 table {
   &.list {
@@ -655,6 +671,7 @@ table {
     }
   }
 }
+/* Issues grid styles by priorities (provided by Wynn Netherland) */
 
 tr.odd.priority-highest, table.list tbody tr.odd.priority-highest:hover {
   color: #900;
@@ -917,7 +934,7 @@ input#issue_subject {
 }
 
 textarea.wiki-edit {
-  font-family: Arial,Helvetica,sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: larger;
   background: #FFFFFF;
 }
@@ -1007,6 +1024,7 @@ input[type='submit']:active, .btn:active {
   -moz-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.7);
   box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.7);
   background-position: 0 -100px;
+  /* IE only stuff */
   border-bottom: 0\9;
   border-top: 1px solid #666666 \9;
 }
@@ -1023,7 +1041,7 @@ div.wiki {
     -moz-border-radius: 3px;
     border-radius: 3px;
     color: #333333;
-    font-family: Monaco,Menlo,Consolas,"Courier New",monospace;
+    font-family: Monaco, Menlo, Consolas, "Courier New", monospace;
     font-size: 12px;
     padding: 0 3px 2px;
   }
@@ -1077,7 +1095,7 @@ div.wiki {
     -webkit-border-radius: 5px 5px 0 0;
     -moz-border-radius: 5px 5px 0 0;
     border-radius: 5px 5px 0 0;
-    font-family: Verdana,Arial,Helvetica,sans-serif;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
     background: #FFFFFF;
     border: 1px solid #CCCCCC;
     border-bottom: none;
@@ -1228,6 +1246,8 @@ tr.message.sticky td.subject {
     padding-top: 200px;
   }
 }
+
+/*---------- Only Pixel Cookers Theme ----------*/
 
 #sidebar_btn {
   background: transparent url(../images/menu-arrows.png) no-repeat scroll right -33px;
@@ -1624,6 +1644,9 @@ dt {
   background-image: url(../images/icons/ticket--arrow.png);
 }
 
+/*---------- Colors ----------*/
+/* Links */
+
 a {
   color: #0071bc;
   &:link, &:visited {
@@ -1642,9 +1665,13 @@ a {
   }
 }
 
+/* Top bar */
+
 #top-menu {
   background-color: #0071bc;
 }
+
+/* Buttons */
 
 #main-menu ul li a {
   background-color: #367eb7;
@@ -1695,6 +1722,8 @@ input[type="submit"].greydient, .btn.greydient {
   text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
 }
 
+/* Boxes */
+
 fieldset {
   &#filters, &#date-range {
     background-color: #f5fcfc;
@@ -1705,6 +1734,24 @@ fieldset {
   background-color: #F5FCFC;
 }
 
+/* Redmine Favourite Projects */
+
 .chzn-container .chzn-results .highlighted {
   background: #498bbf;
 }
+
+/* == Colors change example ==
+
+a, a:link, a:visited { color: #cc0000 }
+#footer a, #footer a:link, #footer a:visited { color: #cc0000 }
+
+#top-menu { background-color: #cc0000}
+
+#main-menu ul li a { #gradient > .vertical(lighten(#cc0000, 5%), darken(#cc0000, 2.5%)); }
+#main-menu ul li a:hover { #gradient > .vertical(lighten(#cc0000, 5%), darken(#cc0000, 2.5%)); }
+input[type="submit"] { #gradient > .vertical(lighten(#cc0000, 5%), darken(#cc0000, 2.5%)); }
+
+fieldset#filters, fieldset#date-range { background-color: #FCF5FC }
+.box { background-color:#FCF5FC; }
+
+*/

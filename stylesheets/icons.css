@@ -1,0 +1,337 @@
+.my-project {
+  background-image: url(../images/icons/star.png);
+}
+
+em.info.error {
+  background-image: url(../images/icons/exclamation.png);
+}
+
+table.members td.group {
+  background-image: url(../images/icons/users.png);
+}
+
+input#principal_search, input#user_search {
+  background-image: url(../images/icons/magnifier-medium-left.png);
+}
+
+.icon-add {
+  background-image: url(../images/icons/plus-circle.png);
+}
+
+.icon-edit {
+  background-image: url(../images/icons/pencil.png);
+}
+
+.icon-copy {
+  background-image: url(../images/icons/documents-text.png);
+}
+
+.icon-duplicate {
+  background-image: url(../images/icons/blue-document--plus.png);
+}
+
+.icon-del {
+  background-image: url(../images/icons/eraser.png);
+}
+
+.icon-move {
+  background-image: url(../images/icons/arrow-curve.png);
+}
+
+.icon-save {
+  background-image: url(../images/icons/disk-black.png);
+}
+
+.icon-cancel {
+  background-image: url(../images/icons/arrow-curve-180-left.png);
+}
+
+.icon-multiple {
+  background-image: url(../images/icons/blue-documents-stack.png);
+}
+
+.icon-folder {
+  background-image: url(../images/icons/folder-horizontal.png);
+}
+
+.open .icon-folder {
+  background-image: url(../images/icons/folder-horizontal-open.png);
+}
+
+.icon-package {
+  background-image: url(../images/icons/box-label.png);
+}
+
+.icon-user {
+  background-image: url(../images/icons/user-black.png);
+}
+
+.icon-projects {
+  background-image: url(../images/icons/block.png);
+}
+
+.icon-help {
+  background-image: url(../images/icons/information.png);
+}
+
+.icon-attachment {
+  background-image: url(../images/icons/paper-clip.png);
+}
+
+.icon-time {
+  background-image: url(../images/icons/clock.png);
+}
+
+.icon-time-add {
+  background-image: url(../images/icons/clock--plus.png);
+}
+
+.icon-stats {
+  background-image: url(../images/icons/chart.png);
+}
+
+.icon-warning {
+  background-image: url(../images/icons/exclamation.png);
+}
+
+.icon-fav {
+  background-image: url(../images/icons/star.png);
+}
+
+.icon-fav-off {
+  background-image: url(../images/icons/star-empty.png);
+}
+
+.icon-reload {
+  background-image: url(../images/icons/arrow-circle-double-135.png);
+}
+
+.icon-lock {
+  background-image: url(../images/icons/lock.png);
+}
+
+.icon-unlock {
+  background-image: url(../images/icons/lock-unlock.png);
+}
+
+.icon-checked {
+  background-image: url(../images/icons/tick.png);
+}
+
+.icon-details {
+  background-image: url(../images/icons/magnifier-zoom-in.png);
+}
+
+.icon-report {
+  background-image: url(../images/icons/report.png);
+}
+
+.icon-comment {
+  background-image: url(../images/icons/balloon-left.png);
+}
+
+.icon-summary {
+  background-image: url(../images/icons/lightning.png);
+}
+
+.icon-server-authentication {
+  background-image: url(../images/icons/server-property.png);
+}
+
+.icon-issue {
+  background-image: url(../images/icons/ticket.png);
+}
+
+.icon-zoom-in {
+  background-image: url(../images/icons/magnifier-zoom-in.png);
+}
+
+.icon-zoom-out {
+  background-image: url(../images/icons/magnifier-zoom-out.png);
+}
+
+.icon-passwd {
+  background-image: url(../images/icons/key--pencil.png);
+}
+
+.icon-file {
+  background-image: url(../images/icons/report-paper.png);
+}
+
+.jstElements .help a {
+  background-image: url(../images/icons/question.png) !important;
+}
+.jstElements button.jstb_strong {
+  background-image: url(../images/icons/edit-bold.png);
+}
+.jstElements button.jstb_em {
+  background-image: url(../images/icons/edit-italic.png);
+}
+.jstElements button.jstb_ins {
+  background-image: url(../images/icons/edit-underline.png);
+}
+.jstElements button.jstb_del {
+  background-image: url(../images/icons/edit-strike.png);
+}
+.jstElements button.jstb_code {
+  background-image: url(../images/icons/edit-code.png);
+}
+.jstElements button.jstb_h1 {
+  background-image: url(../images/icons/edit-heading-1.png);
+}
+.jstElements button.jstb_h2 {
+  background-image: url(../images/icons/edit-heading-2.png);
+}
+.jstElements button.jstb_h3 {
+  background-image: url(../images/icons/edit-heading-3.png);
+}
+.jstElements button.jstb_ul {
+  background-image: url(../images/icons/edit-list.png);
+}
+.jstElements button.jstb_ol {
+  background-image: url(../images/icons/edit-list-order.png);
+}
+.jstElements button.jstb_bq {
+  background-image: url(../images/icons/edit-indent.png);
+}
+.jstElements button.jstb_unbq {
+  background-image: url(../images/icons/edit-outdent.png);
+}
+.jstElements button.jstb_link {
+  background-image: url(../images/icons/chain.png);
+}
+.jstElements button.jstb_img {
+  background-image: url(../images/icons/picture.png);
+}
+
+span.search_for_watchers a, span.add_attachment a {
+  background-image: url(../images/icons/plus-small-circle.png);
+}
+
+div.projects h3 {
+  background: none;
+  padding-left: 0;
+}
+div.projects h3 > h3 {
+  background: url(../images/22x22/projects.png) no-repeat scroll 0 50% transparent;
+  padding-left: 26px;
+}
+div.news h3 {
+  background-image: url(../images/22x22/notifications.png);
+  padding-left: 26px;
+}
+div.issues h3 {
+  background-image: url(../images/22x22/tracker.png);
+  padding-left: 26px;
+}
+div.members h3 {
+  background-image: url(../images/22x22/users.png);
+  padding-left: 26px;
+}
+
+h3.version {
+  background-image: url(../images/22x22/package.png);
+  padding-left: 26px;
+}
+
+#admin-menu li {
+  padding-bottom: 14px;
+}
+#admin-menu li a {
+  padding-bottom: 3px !important;
+  padding-left: 26px !important;
+  padding-top: 3px !important;
+}
+#admin-menu li a.selected {
+  padding-bottom: 3px !important;
+  padding-left: 26px !important;
+  padding-top: 3px !important;
+}
+#admin-menu a.projects {
+  background-image: url(../images/22x22/projects.png);
+}
+#admin-menu a.users {
+  background-image: url(../images/22x22/user.png);
+}
+#admin-menu a.groups {
+  background-image: url(../images/22x22/users.png);
+}
+#admin-menu a.roles {
+  background-image: url(../images/22x22/roles.png);
+}
+#admin-menu a.trackers {
+  background-image: url(../images/22x22/tracker.png);
+}
+#admin-menu a.issue_statuses {
+  background-image: url(../images/22x22/issue_statuses.png);
+}
+#admin-menu a.workflows {
+  background-image: url(../images/22x22/workflow.png);
+}
+#admin-menu a.custom_fields {
+  background-image: url(../images/22x22/custom_fields.png);
+}
+#admin-menu a.enumerations {
+  background-image: url(../images/22x22/enumerations.png);
+}
+#admin-menu a.settings {
+  background-image: url(../images/22x22/settings.png);
+}
+#admin-menu a.ldap-authentication, #admin-menu a.server_authentication {
+  background-image: url(../images/22x22/authent.png);
+}
+#admin-menu a.plugins {
+  background-image: url(../images/22x22/plugin.png);
+}
+#admin-menu a.info {
+  background-image: url(../images/22x22/info.png);
+}
+
+table.boards a.board, h3.comments {
+  background-image: url(../images/22x22/comment.png);
+  padding-left: 26px;
+}
+
+dt.issue {
+  background-image: url(../images/icons/ticket.png);
+}
+dt.issue-edit {
+  background-image: url(../images/icons/ticket--pencil.png);
+}
+dt.issue-closed {
+  background-image: url(../images/icons/ticket--arrow.png);
+}
+dt.issue-note {
+  background-image: url(../images/icons/sticky-note-pin.png);
+}
+dt.changeset {
+  background-image: url(../images/icons/gear.png);
+}
+dt.news {
+  background-image: url(../images/icons/newspapers.png);
+}
+dt.message {
+  background-image: url(../images/icons/ballon.png);
+}
+dt.reply {
+  background-image: url(../images/icons/ballons.png);
+}
+dt.wiki-page {
+  background-image: url(../images/icons/document--pencil.png);
+}
+dt.attachment {
+  background-image: url(../images/icons/paper-clip.png);
+}
+dt.document {
+  background-image: url(../images/icons/document.png);
+}
+dt.project {
+  background-image: url(../images/icons/block.png);
+}
+dt.time-entry {
+  background-image: url(../images/icons/clock.png);
+}
+
+#search-results dt.issue.closed {
+  background-image: url(../images/icons/ticket--arrow.png);
+}
