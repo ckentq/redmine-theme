@@ -16,14 +16,15 @@
 body {
   .lucida;
   background: #F3F3F3;
-  color: #555555;
+  color: #444;
+  font-size: 15px;
 }
 #wrapper {
   background: transparent;
 }
 a {
   color: #0071BC;
-
+  text-decoration: underline;
   &:hover {
     text-decoration: underline;
   }
@@ -69,6 +70,21 @@ a {
       color: #ddd;
       line-height: @topMenuHeight;
       margin-right: 4px;
+      a{
+        padding:5px 8px;
+        border-color:#eee;
+        box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+        border-radius: 5px;
+        background-color: #efefef;
+        background-image: -moz-linear-gradient(top, #fff, #efefef); // FF 3.6+
+        background-image: -ms-linear-gradient(top,  #fff,#efefef); // IE10
+        background-image: -webkit-gradient(linear, 0 0, 100% 0, from( #fff), to(#efefef)); // Safari 4+, Chrome 2+
+        background-image: -webkit-linear-gradient(top,  #fff,#efefef); // Safari 5.1+, Chrome 10+
+        background-image: -o-linear-gradient(top,  #fff, #efefef); // Opera 11.10
+        background-image: linear-gradient(top,  #fff, #efefef); // Le standard
+        background-repeat: repeat-x;
+        filter: e(%("progid:DXImageTransform.Microsoft.gradient(startColorstr='%d', endColorstr='%d', GradientType=1)",#fff,#efefef)); // IE9 and down
+      }
     }
   }
 
@@ -88,11 +104,11 @@ a {
   background: #333;
   color: #888888;
   font-size: 11px;
-  height: 87px;
+  height: 100px;
   left: 0;
-  padding: 32px 0 20px 0px;
-  padding-top: @topMenuHeight+2px;
-  
+  padding: 40px 0 0 0;
+  //padding-top: @topMenuHeight+2px;
+  position:relative;
   width: 100%;
   z-index: 10;
 
@@ -142,7 +158,7 @@ a {
 #main {
   background: none;
   margin: 0 30px 0 30px;
-  padding: @topMenuHeight+40px 0 0 0;
+  padding: 20px 0 0 0;
 
   &.nosidebar #content {
     border: 1px solid #CCCCCC;
@@ -153,24 +169,29 @@ a {
   .border-radius(6px);
   background: #FFFFFF none repeat scroll 0 0;
   border: 1px solid #CCCCCC;
-  margin: 0 0 20px;
+  margin: -40px 0 20px;
   width: 81%;
   ol, ul{
     color:#148c4e;
+  }
+  p{
+    line-height: 22px;
   }
 }
 
 #sidebar {
   width: 15%;
+  margin-top:10px;
 }
 
 // Menu
 #main-menu {
   .helvetica;
-  margin: 0 0 0 30px;
+  margin:0 ;
   padding: 0;
-  position: relative;
-  left: 0;
+  position: absolute;
+  top:103px;
+  left: 30px;
 
   ul {
     margin-left: 5px;
@@ -300,7 +321,16 @@ h3, h4 {
 .wiki h3 {
   font-size: 16px;
 }
-
+h3{
+  background:#efefef;
+  padding:10px 5px;
+  border-radius: 4px;
+}
+h4{
+  background: #fff7de;
+  padding:5px 5px;
+  border-radius: 3px 3px 0 0;
+}
 // Links
 #sidebar {
   a.selected {
