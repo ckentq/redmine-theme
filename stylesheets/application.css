@@ -317,7 +317,7 @@ a.issue.closed:visited {
 #header #quick-search {
   font-family: Arial, Helvetica, sans-serif;
   line-height: 30px;
-  margin: 15px 15px 20px 0;
+  margin: 15px 30px 20px 0;
   padding: 0;
   text-align: right;
 }
@@ -348,7 +348,7 @@ a.issue.closed:visited {
   font-family: Calibri, Helvetica, Arial, sans-serif;
   color: #CCCCCC;
   font-weight: bold;
-  margin: 15px;
+  margin: 15px 15px 15px 30px;
   text-align: left;
   z-index: 50;
 }
@@ -369,12 +369,16 @@ a.issue.closed:visited {
   margin: 0 0 20px;
   width: 81%;
 }
+#content ol,
+#content ul {
+  color: #148c4e;
+}
 #sidebar {
   width: 15%;
 }
 #main-menu {
   font-family: Helvetica, Arial, sans-serif;
-  margin: 0;
+  margin: 0 0 0 30px;
   padding: 0;
   position: relative;
   left: 0;
@@ -1064,7 +1068,7 @@ tr.message.sticky td.subject {
   margin: 0;
   padding: 0;
   position: absolute;
-  right: 10px;
+  right: 30px;
   top: 159px;
   width: 13%;
 }
