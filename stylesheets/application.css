@@ -355,7 +355,7 @@ a.issue.closed:visited {
 #main {
   background: none;
   margin: 0 30px 0 30px;
-  padding: 70px 0 0 10px;
+  padding: 70px 0 0 0;
 }
 #main.nosidebar #content {
   border: 1px solid #CCCCCC;
