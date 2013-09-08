@@ -298,18 +298,6 @@ a.issue.closed:visited {
 }
 #top-menu ul li a {
   padding: 5px 8px;
-  border-color: #eee;
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
-  border-radius: 5px;
-  background-color: #efefef;
-  background-image: -moz-linear-gradient(top, #ffffff, #efefef);
-  background-image: -ms-linear-gradient(top, #ffffff, #efefef);
-  background-image: -webkit-gradient(linear, 0 0, 100% 0, from(#ffffff), to(#efefef));
-  background-image: -webkit-linear-gradient(top, #ffffff, #efefef);
-  background-image: -o-linear-gradient(top, #ffffff, #efefef);
-  background-image: linear-gradient(top, #ffffff, #efefef);
-  background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#efefef', GradientType=1);
 }
 #top-menu #loggedas {
   color: #efefef;
@@ -321,7 +309,7 @@ a.issue.closed:visited {
   padding: 0;
 }
 #header {
-  background: #333;
+  background: url(../images/icons/company_logo.png) right bottom no-repeat #333333;
   color: #888888;
   font-size: 11px;
   height: 100px;
@@ -383,7 +371,7 @@ a.issue.closed:visited {
   border-radius: 6px;
   background: #FFFFFF none repeat scroll 0 0;
   border: 1px solid #CCCCCC;
-  margin: -40px 0 20px;
+  margin: 0 0 20px;
   width: 81%;
 }
 #content ol,
@@ -464,7 +452,7 @@ a.issue.closed:visited {
   clear: left;
   color: #666666;
   font-size: 9px;
-  margin: 40px 30px 0 260px;
+  margin: 40px 30px 0 40px;
   padding: 15px 0;
   text-align: left;
 }
@@ -508,6 +496,20 @@ a.issue.closed:visited {
   border-radius: 6px 6px 0 0;
   height: 23px;
   margin-top: -5px;
+}
+#content a {
+  border-color: #eee;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  background-color: #efefef;
+  background-image: -moz-linear-gradient(top, #ffffff, #efefef);
+  background-image: -ms-linear-gradient(top, #ffffff, #efefef);
+  background-image: -webkit-gradient(linear, 0 0, 100% 0, from(#ffffff), to(#efefef));
+  background-image: -webkit-linear-gradient(top, #ffffff, #efefef);
+  background-image: -o-linear-gradient(top, #ffffff, #efefef);
+  background-image: linear-gradient(top, #ffffff, #efefef);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#efefef', GradientType=1);
 }
 h1,
 h2,
