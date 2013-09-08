@@ -497,21 +497,6 @@ a.issue.closed:visited {
   height: 23px;
   margin-top: -5px;
 }
-#content a {
-  padding: 5px 8px;
-  border-color: #eee;
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
-  border-radius: 5px;
-  background-color: #efefef;
-  background-image: -moz-linear-gradient(top, #ffffff, #efefef);
-  background-image: -ms-linear-gradient(top, #ffffff, #efefef);
-  background-image: -webkit-gradient(linear, 0 0, 100% 0, from(#ffffff), to(#efefef));
-  background-image: -webkit-linear-gradient(top, #ffffff, #efefef);
-  background-image: -o-linear-gradient(top, #ffffff, #efefef);
-  background-image: linear-gradient(top, #ffffff, #efefef);
-  background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#efefef', GradientType=1);
-}
 h1,
 h2,
 h3,
@@ -990,12 +975,6 @@ div.wiki dl {
   line-height: 35px;
   padding-top: 10px;
   padding-bottom: 11px;
-}
-.contextual a {
-  background: none;
-  border-radius: none;
-  border: none;
-  box-shadow: none;
 }
 #content div[style="clear: both;"] + .contextual {
   border: none;
