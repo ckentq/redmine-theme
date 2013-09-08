@@ -991,6 +991,12 @@ div.wiki dl {
   padding-top: 10px;
   padding-bottom: 11px;
 }
+.contextual a {
+  background: none;
+  border-radius: none;
+  border: none;
+  box-shadow: none;
+}
 #content div[style="clear: both;"] + .contextual {
   border: none;
 }
